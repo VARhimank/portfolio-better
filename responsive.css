@@ -40,9 +40,6 @@
 }
 
 @media (max-width:710px){
-    .skill {
-      
-      }
     .column1{
         padding: 0px;
     }
@@ -68,4 +65,121 @@
     display: block;
     text-align: left;
   }
+}
+
+@media (max-width:680px){
+    .prj {
+      width: 50%;
+      }
+    .prj-container{
+        height: fit-content;
+    }
+    .skill {
+        width: 150px;
+    }
+
+}
+
+@media (max-width:609px){
+    .social-box li a{
+        margin: 0px 10px;        
+    }
+}
+
+@media (max-width:500px){
+    .top h1 {
+        font-size: 40px;
+    }
+    
+    .top h3 {
+    font-size: 30px;
+    }
+
+    .top h6 {
+        font-size: 20px;
+        }
+  
+    .img-me {
+        width: 35%;
+    }
+    .prj{
+        width: 70%;
+    }
+    .footer-logo{
+        font-size: 25px;
+    }
+    .footer-logo p{
+        font-size: 15px;
+    }
+    .column{
+        padding: 20px 0px;
+    }
+    .about-txt{
+        font-size: 3.2vw;
+    }
+    .about-container{
+        height: fit-content;
+    }
+}
+
+@media (max-width:450px) {
+    .skills-container{
+        padding: 30px;
+    }
+    .about-container{
+        padding: 30px;
+    }
+    .prj-container{
+        padding: 30px;
+    }
+    .social-container{
+        padding: 30px;
+    }
+    .skill-name{
+        font-size: 3vw;
+    }
+    .skill-lvl{
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width:450px) {
+    .social-box li a{
+        margin: 0px;
+    }
+    .social-container{
+        height: fit-content;
+    }
+}
+
+@media (max-width:400px) {
+    .skill{
+        margin: 10px 5px;
+    }
+}
+
+@media (max-width:350px){
+    .top h1 {
+        font-size: 40px;
+    }
+    
+    .top h3 {
+    font-size: 25px;
+    }
+
+    .top h6 {
+        font-size: 20px;
+        }
+  
+    .img-me {
+        width: 50%;
+    }
+    .prj{
+        width: 90%;
+    }
+}
+
+ ::selection {
+  color: rgb(255,65,65);
+  background: black;
 }
