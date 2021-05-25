@@ -1,0 +1,36 @@
+.prj-container {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  padding: 50px;
+}
+
+.prj-container h1 {
+font-family: 'Raleway Black', sans-serif;
+font-size: 5vw;
+margin: 0px;
+}
+
+.prj-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prj {
+  width: 300px;
+  background-color: white;
+  padding: 15px;
+  margin: 5px 50px;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: width 1s;
+  cursor: pointer;
+}
+
+.prj:hover {
+  width: 400px;
+}
+
+.prj img{
+  max-width: 100%;
+}

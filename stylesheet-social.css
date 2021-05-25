@@ -1,0 +1,67 @@
+.social-container {
+  background-color: rgb(255, 65, 65);
+  height: 60vh;
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+  
+.social-container h1 {
+  font-family: 'Raleway Black', sans-serif;
+  font-size: 5vw;
+  margin: 0px;
+  color: white;
+}
+
+.social-container h3 {
+  font-family: 'Raleway medium', sans-serif;
+  font-size: 3vw;
+  margin: 0px;
+  color: white;
+}
+
+.social-box {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.social-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.social-box li {
+  list-style: none;
+  float: left;
+  margin: 0 auto;
+}
+
+.social-box li a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 30px;
+  color: black;
+  transition: .5s;
+  margin: 0px 50px;
+}
+
+.social-box li a::before {
+  content: '';
+  background: rgb(0, 0, 0);
+  transition: .5s;
+  transform: scale(.9);
+}
+
+.social-box ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px white;
+}
+
+.social-box ul li a:hover {
+  color: white;
+  box-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px white;
+}

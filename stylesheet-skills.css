@@ -1,0 +1,49 @@
+.skills-container {
+    background-color: rgb(255, 65, 65);
+    height: 100vh;
+    padding: 50px;
+    overflow: hidden;
+}
+  
+.skills-container h1 {
+  font-family: 'Raleway Black', sans-serif;
+  font-size: 5vw;
+  width: 100%;
+  margin: 0px;
+}
+
+.skill {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 50px;
+  width: 250px;
+  margin: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.skill:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transition: ease-in 0.2s;
+  border: 3px black solid;
+}
+
+.skill-name{
+  font-family: 'Raleway Medium',sans-serif;
+  font-size: 2vw;
+  color: rgb(255, 65, 65);
+}
+
+.skill-lvl{
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.5vw;
+  color: black;
+}
+
+.column1 {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}

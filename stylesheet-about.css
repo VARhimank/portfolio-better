@@ -1,0 +1,30 @@
+.about-container {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  padding: 50px;
+}
+
+.about-container h1 {
+  font-family: 'Raleway Black', sans-serif;
+  font-size: 5vw;
+  margin: 0px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 20px;
+}
+
+.about-txt{
+  font-size: 30px;
+  margin: 0px;
+}
+
+
+.img-me-speech {
+  width: 100%;
+}

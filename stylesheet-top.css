@@ -1,0 +1,33 @@
+.top {
+  background-image: url("hero2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-txt {
+  text-align: center;
+  margin: 10vh;
+}
+
+.top h1 {
+  font-size: 70px;
+  color: rgb(245, 66, 66);
+}
+
+.top h3 {
+  font-size: 50px;
+  margin: 20px 0px 0px 0px;
+}
+
+.top h6 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.img-me{
+  border-radius: 50%;
+  width: 15%;
+  box-shadow: rgba(236, 21, 21, 0.4) 0px 5px, rgba(240, 46, 46, 0.3) 0px 10px, rgba(240, 46, 46, 0.2) 0px 15px, rgba(240, 46, 46, 0.1) 0px 20px, rgba(240, 46, 46, 0.05) 0px 25px;
+}
